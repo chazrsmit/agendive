@@ -1,0 +1,8 @@
+.rectangle {
+    display: flex;
+    width: 100vw;
+}
+
+.left, .right {
+    flex: 1;
+}
