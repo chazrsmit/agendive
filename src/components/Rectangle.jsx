@@ -6,9 +6,9 @@ export default function Rectangle({ titre, lieu, type }) {
 
     return(
         <>
-            <div className="rectangle">
+            <div className="rectangle vert">
                 <div className="left">
-                    <h2>
+                    <h2 className="title">
                         {titre}
                     </h2>
                 </div>
