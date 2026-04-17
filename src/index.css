@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cossette+Texte:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bpmf+Huninn&display=swap');
 
 * {
   margin: 0;
@@ -12,6 +12,7 @@
 
 html, body, #root {
   height: 100%;
+    background: #f8f8f8;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -20,7 +21,10 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-  font-family: 'cossette texte';
+  font-family: 'Bpmf Huninn';
   font-weight: 300;
-  letter-spacing: 1.1px;
+}
+
+h3, h4 {
+  font-family: 'Bpmf Huninn';
 }

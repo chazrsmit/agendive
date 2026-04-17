@@ -4,6 +4,7 @@
     align-items: center;
     padding: 2rem;
     gap: 1rem;
+    height: 40vh;
 }
 
 .left, .right {
@@ -23,8 +24,17 @@
 }
 
 .rectangle.vert {
-    background: #174b47;
-    color: #e45b59;
+    background: #0c4541;
+    color: #e44a48;
+}
+
+.rectangle.blue {
+    background: #256aff;
+}
+
+.tags {
+    display: flex;
+    gap: 1rem;
 }
 
 .title {
@@ -37,5 +47,11 @@
 h2, h3, h4 {
     margin: 0 !important;
     padding: 0 !important;
+}
+
+h4 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 200;
 }
 

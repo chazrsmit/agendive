@@ -2,6 +2,8 @@
     padding: 0.3rem;
     font-family: 'cossette texte';
     font-size: 40px;
+        background: #f8f8f8;
+
 }
 
 .datebar:hover{
