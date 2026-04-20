@@ -2,9 +2,10 @@
     display: flex;
     width: 100vw;
     align-items: center;
-    padding: 2rem;
+    padding: 2.8rem;
     gap: 1rem;
     height: 40vh;
+    position: relative;
 }
 
 .left, .right {
@@ -16,11 +17,11 @@
 }
 
 .left {
-    flex: 1.5
+    flex: 1.4
 }
 
 .right {
-    flex: 0.5;
+    flex: 0.6;
 }
 
 .rectangle.vert {
@@ -53,5 +54,46 @@ h4 {
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 200;
+}
+
+/* les svg */
+
+.rectangle svg:nth-of-type(1) {
+    width: 90px;
+    height: auto;
+    display: block;   
+    position: absolute; 
+    top: 0;
+    left: 0;
+}
+
+.rectangle svg:nth-of-type(2) {
+    width: 90px;
+    height: auto;
+    display: block;   
+    position: absolute; 
+    top: 0;
+    right: 0;
+    transform: scaleX(-1);
+}
+
+.rectangle svg:nth-of-type(3) {
+    width: 90px;
+    height: auto;
+    display: block;   
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    transform: scaleY(-1);
+}
+
+.rectangle svg:nth-of-type(4) {
+    width: 90px;
+    height: auto;
+    display: block;   
+    position: absolute; 
+    bottom: 0;
+    right: 0;
+    transform: scale(-1);
 }
 

@@ -1,4 +1,5 @@
 import './rectangle.css'
+import Svg from '../assets/art1.svg?react'
 
 export default function Rectangle({ titre, lieu, type, type2, couleur }) {
     // prendre en props le duo de couleurs, le titre de l'event, le lieu, type d'event
@@ -7,6 +8,10 @@ export default function Rectangle({ titre, lieu, type, type2, couleur }) {
     return(
         <>
             <div className={`rectangle ${couleur}`}>
+                <Svg />
+                <Svg />
+                <Svg />
+                <Svg />
                 <div className="left">
                     <h2 className="title">
                         {titre}
