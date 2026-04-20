@@ -2,8 +2,8 @@
     display: flex;
     width: 100vw;
     align-items: center;
-    padding: 2.8rem;
-    gap: 1rem;
+    padding: 3.3rem;
+    gap: 1.6rem;
     height: 40vh;
     position: relative;
 }
@@ -27,6 +27,11 @@
 .rectangle.vert {
     background: #0c4541;
     color: #e44a48;
+}
+
+.rectangle.vert svg {
+    color: #e44a48;
+    fill: #e44a48;
 }
 
 .rectangle.blue {
