@@ -77,6 +77,28 @@
     color: #eaeaea;
 }
 
+.rectangle.pink {
+    background: #E83F6F;
+    /* color: #CFE8EF; */
+    /* color: #D5E68D; */
+    color: #FFE6E8;
+}
+
+.rectangle.pink svg {
+    fill: #FFE6E8;
+}
+
+.rectangle.last {
+    background: #443850;
+    /* color: #FE5F55; */
+    color: #30b359;
+}
+
+.rectangle.last svg {
+    fill: #30b359;
+}
+
+
 .tags {
     display: flex;
     gap: 1rem;

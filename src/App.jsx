@@ -19,8 +19,8 @@ function App() {
     <Rectangle titre={"Fuse presents: For Your Entertainment tour with VTSS (A/V)"} lieu={"Fuse"} type={"clubbing"} type2={"musique"} couleur={"purple"} />
     <Date date={"17 avril 2026"} />
     <Rectangle titre={"gl1tch.IV"} lieu={"La Fabriek"} type={"clubbing"} type2={"musique"} couleur={"yellow"} />
-    <Rectangle titre={"Collectif Méta pres. MÉTA 3 YEARS w/ Eduardo De La Calle"} lieu={"Bodies in Space"} type={"clubbing"} type2={"musique"} couleur={"blue"} />
-    <Rectangle titre={"Seefeel"} lieu={"AB Club"} type={"concert"} type2={"musique"} couleur={"purple"} />
+    <Rectangle titre={"Collectif Méta pres. MÉTA 3 YEARS w/ Eduardo De La Calle"} lieu={"Bodies in Space"} type={"clubbing"} type2={"musique"} couleur={"last"} />
+    <Rectangle titre={"Seefeel"} lieu={"AB Club"} type={"concert"} type2={"musique"} couleur={"pink"} />
     </>
   )
 }
