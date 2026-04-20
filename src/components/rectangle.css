@@ -10,12 +10,12 @@
 
 .rectangle:hover {
     background:  #010510 !important;
-    color: #eaeaea !important;
+    /* color: #eaeaea !important; */
 }
 
-.rectangle:hover svg {
+/* .rectangle:hover svg {
     fill: #eaeaea !important;
-}
+} */
 
 .left, .right {
     display: flex;
@@ -116,6 +116,57 @@ h4 {
 
 .rectangle svg:nth-of-type(4) {
     width: 90px;
+    height: auto;
+    display: block;   
+    position: absolute; 
+    bottom: 0;
+    right: 0;
+    transform: scale(-1);
+}
+
+.rectangle svg:nth-of-type(5), .rectangle svg:nth-of-type(6), .rectangle svg:nth-of-type(7), .rectangle svg:nth-of-type(8){
+display: none;
+}
+
+.rectangle:hover svg:nth-of-type(1), .rectangle:hover svg:nth-of-type(2), .rectangle:hover svg:nth-of-type(3), .rectangle:hover svg:nth-of-type(4) {
+    display:none;
+}
+
+.rectangle:hover svg:nth-of-type(5), .rectangle:hover svg:nth-of-type(6), .rectangle:hover svg:nth-of-type(7), .rectangle:hover svg:nth-of-type(8) {
+    display:block;
+}
+
+.rectangle:hover svg:nth-of-type(5) {
+        width: 90px;
+    height: auto;
+    display: block;   
+    position: absolute; 
+    top: 0;
+    left: 0;
+}
+
+.rectangle:hover svg:nth-of-type(6) {
+        width: 90px;
+    height: auto;
+    display: block;   
+    position: absolute; 
+    top: 0;
+    right: 0;
+    transform: scaleX(-1);
+}
+
+.rectangle:hover svg:nth-of-type(7) {
+        width: 90px;
+    height: auto;
+    display: block;   
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    transform: scaleY(-1);
+}
+
+.rectangle:hover svg:nth-of-type(8) {
+        width: 90px;
     height: auto;
     display: block;   
     position: absolute; 
