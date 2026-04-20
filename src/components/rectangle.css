@@ -60,6 +60,23 @@
     fill: #4f2765;
 }
 
+.rectangle.yellow {
+    background: #C6CA53;
+    color: #0E131F;
+}
+
+.rectangle.yellow svg {
+    fill: #0E131F;
+}
+
+.rectangle.yellow:hover svg {
+    fill: #eaeaea;
+}
+
+.rectangle.yellow:hover {
+    color: #eaeaea;
+}
+
 .tags {
     display: flex;
     gap: 1rem;
