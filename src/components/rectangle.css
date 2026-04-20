@@ -8,6 +8,10 @@
     position: relative;
 }
 
+.rectangle:hover {
+    background:  #010510 !important;
+}
+
 .left, .right {
     display: flex;
     flex-direction: column;
@@ -30,12 +34,25 @@
 }
 
 .rectangle.vert svg {
-    color: #e44a48;
     fill: #e44a48;
 }
 
 .rectangle.blue {
     background: #256aff;
+    color: #F7DD7D;
+}
+
+.rectangle.blue svg {
+    fill: #F7DD7D;
+}
+
+.rectangle.purple {
+    background: #EAD7D1;
+    color: #4f2765;
+}
+
+.rectangle.purple svg {
+    fill: #4f2765;
 }
 
 .tags {

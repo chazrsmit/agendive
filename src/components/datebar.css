@@ -1,12 +1,48 @@
 .datebar {
     padding: 0.3rem;
-    font-family: 'jersey 15';
-    font-size: 30px;
-    background: #f8f8f8;
+    font-family: 'Bpmf Huninn';
+    font-size: 20px;
+    background: #010510 ;
     font-weight: 200;
+    color: #eaeaea;
+    position: relative;
+    height: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
 
 }
 
 .datebar:hover{
     color: #F2E86D;
 }
+
+.datebar:hover svg {
+    fill: #F2E86D !important;
+}
+
+
+
+.datebar svg:nth-of-type(1) {
+    width: 80px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    fill: #eaeaea;
+}
+
+.datebar svg:nth-of-type(2) {
+    width: 80px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    fill: #eaeaea;
+    transform: scaleX(-1);
+
+}
+
