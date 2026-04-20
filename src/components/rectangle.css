@@ -10,6 +10,11 @@
 
 .rectangle:hover {
     background:  #010510 !important;
+    color: #eaeaea !important;
+}
+
+.rectangle:hover svg {
+    fill: #eaeaea !important;
 }
 
 .left, .right {

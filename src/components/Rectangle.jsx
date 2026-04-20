@@ -19,14 +19,14 @@ export default function Rectangle({ titre, lieu, type, type2, couleur }) {
                 </div>
                 <div className="right">
                     <h3>
-                        {lieu}
+                        @ {lieu}
                     </h3>
                     <div className="tags">
                         <h4>
                             {type}
                         </h4>
-                        <h4>{type2}
-
+                        <h4>
+                            {type2}
                         </h4>
                     </div>
                 </div>
