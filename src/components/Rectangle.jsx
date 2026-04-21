@@ -2,13 +2,13 @@ import './rectangle.css'
 import Svg from '../assets/art1.svg?react'
 import Svg2 from '../assets/essai4artnouveau.svg?react'
 
-export default function Rectangle({ titre, lieu, type, type2, couleur }) {
+export default function Rectangle({ titre, lieu, type, type2, couleur, handleClick }) {
     // prendre en props le duo de couleurs, le titre de l'event, le lieu, type d'event
     // pour les couleurs de chaque rectangle, elle serait générée selon un ordre : par exemple, en ayant un set de 3 duos de couleurs, ces couleurs seraient appliquées dans l'ordre. 
 
     return(
         <>
-            <div className={`rectangle ${couleur}`}>
+            <div className={`rectangle ${couleur}`} onClick={handleClick}>
                 <Svg />
                 <Svg />
                 <Svg />
