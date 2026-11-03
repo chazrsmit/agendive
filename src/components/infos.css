@@ -1,0 +1,51 @@
+.infos {
+    display: flex;
+    width: 100vw;
+    gap: 1.6rem;
+    height: 40vh;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.infos-textes {
+    padding: 3.3rem;
+}
+
+.infos-svg, .infos-svg2 {
+    display:flex;
+    gap: 8px;
+}
+
+.infos-svg {
+    margin-top: 10px;
+}
+
+.infos-svg2 {
+    margin-bottom: 10px;
+}
+
+.infos svg {
+    width: 200px;
+    height: auto;
+    display: block;
+}
+
+/* .infos svg:nth-of-type(1){
+    top: 0;
+    left: 0;
+}
+
+.infos svg:nth-of-type(2){
+    top: 0;
+    left: ;
+} */
+
+.infos.vert {
+    color: #e44a48;
+    background: #0c4541;
+}
+
+.infos.vert svg {
+    fill: #e44a48;
+}
